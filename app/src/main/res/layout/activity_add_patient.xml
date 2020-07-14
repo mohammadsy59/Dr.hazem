@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPatient"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <ImageView
+        android:id="@+id/addPatientImage"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></ImageView>
+<EditText
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Please enter patient name"
+    android:id="@+id/patientNameEditTXT"
+    android:inputType="text"></EditText>
+    <EditText
+        android:inputType="number"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter patient age"
+        android:id="@+id/patientAgeEditTXT"></EditText>
+    <EditText
+        android:inputType="text"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter patient diagnose"
+        android:id="@+id/patientDiagnoseEditTXT"></EditText>
+    <EditText
+        android:inputType="text"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter patient department"
+        android:id="@+id/patientDepartmentEditTXT"></EditText>
+    <Button
+        android:id="@+id/savePatientBT"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Save !"
+        android:onClick="saveNewPatientFun"></Button>
+
+</LinearLayout>

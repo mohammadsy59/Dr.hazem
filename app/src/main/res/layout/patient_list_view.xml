@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/NameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"></TextView>
+            <TextView
+                android:id="@+id/AgeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="age"></TextView>
+            <TextView
+                android:id="@+id/diagnoseLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dia"></TextView>
+            <TextView
+                android:id="@+id/departmentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dep"></TextView>
+    </LinearLayout>
+
+
+
